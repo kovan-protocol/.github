@@ -12,6 +12,5 @@ Regenerate the PNGs after editing the SVGs:
 ```bash
 magick -density 192 -background none assets/banner.svg -resize 1600x400 assets/banner.png
 magick -density 192 -background none assets/logo.svg -resize 512x512 assets/logo.png
-```
 magick -density 384 -background none assets/avatar.svg -resize 1024x1024 assets/avatar.png
 ```
